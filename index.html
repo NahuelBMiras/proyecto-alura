@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/index.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <img src="img/a.png" alt="logo de alura" class="logo__alura">
+        <div class="text__container">
+            <h1 class="titulo">Proyecto alura</h1>
+            <h3 class="subtitulo">Este proyecto se realiza una encriptacion y desencritacion de textos</h3>
+        </div>
+    </header>
+    <main>
+        <form class="encriptar">
+            <div class="text__cotainer encriptar">
+                <textarea name="" placeholder="Ingrese el texto aqui" class="textarea text_a_encriptar_desencriptar"></textarea>
+                <p class="parrafo">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="botonera">
+                <button class="boton boton__encriptar"> Encriptar </button>
+                <button class="boton boton__desencriptar"> Desencriptar </button>
+            </div>
+        </form>
+        <section class="desencriptar">
+            <textarea name="" class="textarea encriptar__desencriptar__text" readonly></textarea>
+            <button class="boton boton__copiar" style="display: none;">Copiar</button>
+            <img src="img/b.png" alt="imagen de una persona con una lupa" class="text_no_encontrado">
+            <div class="text__cotainer text_no_encontrado">
+                <h3 class="subtitulo">Ningún mensaje fue encontrado</h3>
+                <p class="parrafo">Ingresa el texto que desees encriptar o desencriptar.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p class="parrafo"> realizado por Nahuel B Miras </p>
+    </footer>
+</body>
+</html>
